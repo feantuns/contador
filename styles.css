@@ -9,8 +9,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
-h1, p, span {
-    font-size: 1rem;
+.light-text {
+    font-weight: 400;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 500px;
+    width: 100%;
+    padding: 24px;
+    margin-bottom: 12rem;
+
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: .5rem;
+    line-height: 2rem
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    padding: .75rem;
+    font-size: .875rem;
+    border-radius: var(--border-radius);
+    outline: none;
 }

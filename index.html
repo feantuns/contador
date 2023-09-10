@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador de palavras e caracteres</title>
+    <title>Contador de palavras e caracteres</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <script defer src="main.js"></script>
 </head>
 <body>
-    <h1>Contador de palavras e caracteres</h1>
-    <textarea id="text" cols="30" rows="10"></textarea>
-    <p>
-        Palavras: <span id="words"></span>
-        <br />
-        Caracteres com espaço: <span id="chars-with-space"></span>
-        <br />
-        Caracteres sem espaço: <span id="chars-no-space"></span>
-    </p>
+    <main>
+        <header>
+            <h1>Contador de Caracteres <span class="light-text">e Palavras</span></h1>
+        </header>
+
+        <textarea id="text" cols="30" rows="10" placeholder="Digite o texto aqui"></textarea>
+
+        <footer>
+            Caracteres (com espaços): <span id="chars-with-space">0</span>
+            <br />
+            Caracteres (sem espaços): <span id="chars-without-space">0</span>
+            <br />
+            Palavras: <span id="words">0</span>
+        </footer>
+    </main>
 </body>
 </html>

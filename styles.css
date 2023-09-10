@@ -1,55 +1,59 @@
 :root {
-    --background-color: #fbfbfb;
-    --color: #212121;
-    --border-radius: 4px;
+  --color: #212121;
+  --border-radius: 4px;
 }
 
 * {
-    color: var(--color);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Source Sans 3', sans-serif;
+  color: var(--color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .light-text {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfb;
 }
 
 main {
-    max-width: 500px;
-    width: 100%;
-    padding: 24px;
-    margin-bottom: 12rem;
-
+  max-width: 32rem;
+  width: 100%;
+  padding: 24px;
+  margin-bottom: 12rem;
 }
 
 header {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 h1 {
-    font-size: 1.25rem;
-    font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 footer {
-    margin-top: .5rem;
-    line-height: 2rem
+  margin-top: 0.5rem;
+  line-height: 2rem;
 }
 
 textarea {
-    resize: none;
-    width: 100%;
-    padding: .75rem;
-    font-size: .875rem;
-    border-radius: var(--border-radius);
-    outline: none;
+  resize: none;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  border-radius: var(--border-radius);
+  outline: none;
+  border: none;
+}
+
+textarea::placeholder {
+  color: rgba(33, 33, 33, 0.6);
 }
